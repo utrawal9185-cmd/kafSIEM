@@ -3,7 +3,7 @@
 
 module github.com/scalytics/kafSIEM
 
-go 1.26
+go 1.26.0
 
 require (
 	github.com/andybalholm/brotli v1.2.2
@@ -12,7 +12,7 @@ require (
 	github.com/go-chi/chi/v5 v5.3.1
 	github.com/refraction-networking/utls v1.8.2
 	github.com/twmb/franz-go v1.21.5
-	github.com/twmb/franz-go/pkg/kmsg v1.13.1
+	github.com/twmb/franz-go/pkg/kmsg v1.15.0
 	golang.org/x/net v0.57.0
 	gopkg.in/yaml.v3 v3.0.1
 	modernc.org/sqlite v1.55.0
